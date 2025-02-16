@@ -1,31 +1,57 @@
+# Introduction
 
-# blinkit
+This project presents a Power BI dashboard analyzing sales, item categories, outlet types, and store performance for Blinkit. The dashboard provides insights into total sales, outlet locations, average ratings, and item distribution.
+
+#Dashboard Link
 
 
+# Steps Followed
 
-# blinkit-dashboard
+#Data Collection
 
-### dashboard_link:https://app.powerbi.com/groups/me/reports/b97230b2-1479-41d5-bce9-2a2842397c19/e0f4c499daf126eef27f?experience=power-bi
+Imported Blinkit dataset containing outlet details, item sales, and ratings.
 
-Problem Statement
+## Data Cleaning & Transformation
 
-This dashboard provides the details of blinkit App which delivers  food and groceries items online. It helps the service provider to know if their customers are satisfied with their services. Through different ratings, they get to know their improvement area, & thus they can improve their services by identifying these area.
+Used Power Query to clean data, remove duplicates, and format columns.
 
-Since, the average rating is  3.9 so it is doing well in its service.
+## Data Modeling
 
-Steps followed
-Step 1 : Load data into Power BI Desktop, dataset is a excel file.
+Established relationships between tables and created calculated measures.
 
-Step 2 : Open power query editor & in view tab under Data preview section, check "column distribution", "column quality" & "column profile" options.
+## Dashboard Creation
 
-Step 3 : It was observed that in none of the columns errors & empty values were present ".
+Designed visuals including KPIs, bar charts, line charts, pie charts, and tables.
 
-Step 4 : For calculating average sales, null values were not taken into account as only less than 1% values are null in this colum
+## Interactivity & Filters
 
-Step 5 : Since the data contains various ratings, thus in order to represent ratings, a new visual was added using the three ellipses in the visualizations pane in report view.
+Added slicers for filtering outlet type, outlet size, and outlet location type.
 
-Step 6 : Visual filters Slicers,cards,piechart,treegraph,donut chart,funnel chart,matrix table were added. Using visual level filter from the filters pane, basic filtering was used & null values were unselected for consideration into average calculation.
+## Publishing & Sharing
 
-![DashBoard]
-![Screenshot (156)](https://github.com/user-attachments/assets/06dfe41f-8ff8-4600-9df4-e3a3b7436a9d)
+Uploaded the dashboard to Power BI Service and shared the link.
+
+# Results
+
+The total sales amount is $1.20M.
+
+The average sales per outlet is $141.
+
+There are 8,523 unique items in the dataset.
+
+The average rating across all outlets is 3.9.
+
+The highest sales outlet location is Tier 3 ($472.13K).
+
+The outlet size distribution shows a significant contribution from medium-sized outlets.
+
+# Snapshots
+
+Below is a preview of the Power BI dashboard:
+
+![Image](https://github.com/user-attachments/assets/643d5060-9041-4ce0-9cbb-e4c612f615f0)
+
+# Conclusion
+
+This Power BI dashboard effectively visualizes key insights into Blinkit's outlet performance, sales trends, and item distribution. It provides a detailed and interactive tool for analyzing business performance and making data-driven decisions.
 
